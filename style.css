@@ -25,7 +25,8 @@ float: right;
    height: 100px;
    width: 50%;
    text-align: center;
-   margin-topgit init: auto;
+   margin-top: 1%;
+   background-color: hsl(200, 50%, lightness);
 }
 #linki a:visited{
     color: aliceblue;

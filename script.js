@@ -11,6 +11,10 @@ var k5 = document.getElementById("kolor5")
 
 
 function klik(){
-    var wartosc=input.value
-
+    wartosc=input.value
+    gl.style.backgroundColor = `hsl(${wartosc}, 100%, 50%)`
+    k2.style.backgroundColor = `hsl(${wartosc}, 80%, 50%)`
+    k3.style.backgroundColor = `hsl(${wartosc}, 60%, 50%)`
+    k4.style.backgroundColor = `hsl(${wartosc}, 40%, 50%)`
+    k5.style.backgroundColor = `hsl(${wartosc}, 20%, 50%)`
 }
